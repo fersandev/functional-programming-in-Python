@@ -1,7 +1,6 @@
-def apply_bonus(scores, bonus):
-    return [score + bonus for score in scores]
-
-scores = [10, 20, 30]
-print("Applying bonus...") # side effect, on the edge
-new_scores = apply_bonus(scores, 5)
-print(new_scores) # 15, 25, 35]
+names = ["ana", "BOB", "caRLOS", "diana"]
+lowered_generator = (n.lower() for n in names)
+capitalized_generator = (n.capitalize() for n in lowered_generator)
+long_names_generator = (n for n in capitalized_generator if len(n) > 4)
+long_names = list(long_names_generator)
+print(long_names) # ['Carlos', 'Diana']
