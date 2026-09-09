@@ -1,0 +1,12 @@
+USUARIO1@GMAIL.COM  
+correo_valido@domain.es
+invalido_sin_arroba.com
+  ADMIN@Empresa.Org  
+otro.invalido@sin_punto
+  cliente.fiel@empresa.com  
+@sin_usuario.com
+usuario_sin_dominio@.com
+juan.perez@subdominio.empresa.net
+   MARIA.GARCIA@HOTMAIL.COM   
+no_es_email_12345
+  TEST.DEV@GITHUB.IO
