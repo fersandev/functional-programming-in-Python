@@ -9,5 +9,5 @@ def flatten(nested_list):
 
     return result
 
-resultado = flatten([1, [2, [3, 4], 5], [6]])
-print(resultado)  # [1, 2, 3, 4, 5, 6]
+result = flatten([1, [2, [3, 4], 5], [6]])
+print(result)  # [1, 2, 3, 4, 5, 6]
